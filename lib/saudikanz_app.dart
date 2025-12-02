@@ -11,7 +11,7 @@ class SaudikanzApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: AppConstants.appTitle,
-      theme: ThemeData(scaffoldBackgroundColor: Colors.white),
+      theme: ThemeData(scaffoldBackgroundColor: Color(0xffCFCFCF)),
       home: const SplashScreen(),
     );
   }

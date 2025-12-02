@@ -94,6 +94,7 @@ class _SaudikanzWebViewAppState extends State<SaudikanzWebViewApp> {
       canPop: false,
       onPopInvokedWithResult: _onPopInvoked,
       child: Scaffold(
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: errorMessage != null
               ? Center(
